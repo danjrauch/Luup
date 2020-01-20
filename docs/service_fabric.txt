@@ -1,0 +1,32 @@
+# https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-cli#cli-mac
+
+pip3 install sfctl
+sfctl -h
+
+# https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-get-started-mac
+
+# set Docker preferences
+mkdir Desktop/service_fabric
+cd Desktop/service_fabric
+vi Dockerfile
+# paste in Dockerfile contents
+docker build -t luup_cluster .
+docker run --name luup_cluster -d -v /var/run/docker.sock:/var/run/docker.sock -p 19080:19080 -p 19000:19000 -p 25100-25200:25100-25200 luup_cluster
+docker logs luup_cluster
+
+sudo npm install -g yo
+sudo npm install -g generator-azuresfcsharp
+
+yo azuresfcsharp
+
+cd ~/Projects/Luup
+./build.sh
+
+sfctl cluster select --endpoint http://localhost:19080
+./install.sh
+
+docker stop luup_cluster
+
+# docker rm -f luup_cluster
+
+# https://github.com/Azure-Samples/service-fabric-dotnet-core-getting-started

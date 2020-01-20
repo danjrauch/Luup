@@ -1,0 +1,10 @@
+/Users/drauch/Projects/Luup/src/Luup/LuupServer/bin/Debug/netcoreapp2.0/LuupServer.deps.json
+/Users/drauch/Projects/Luup/src/Luup/LuupServer/bin/Debug/netcoreapp2.0/LuupServer.runtimeconfig.json
+/Users/drauch/Projects/Luup/src/Luup/LuupServer/bin/Debug/netcoreapp2.0/LuupServer.runtimeconfig.dev.json
+/Users/drauch/Projects/Luup/src/Luup/LuupServer/bin/Debug/netcoreapp2.0/LuupServer.dll
+/Users/drauch/Projects/Luup/src/Luup/LuupServer/bin/Debug/netcoreapp2.0/LuupServer.pdb
+/Users/drauch/Projects/Luup/src/Luup/LuupServer/obj/Debug/netcoreapp2.0/LuupServer.csprojAssemblyReference.cache
+/Users/drauch/Projects/Luup/src/Luup/LuupServer/obj/Debug/netcoreapp2.0/LuupServer.AssemblyInfoInputs.cache
+/Users/drauch/Projects/Luup/src/Luup/LuupServer/obj/Debug/netcoreapp2.0/LuupServer.AssemblyInfo.cs
+/Users/drauch/Projects/Luup/src/Luup/LuupServer/obj/Debug/netcoreapp2.0/LuupServer.dll
+/Users/drauch/Projects/Luup/src/Luup/LuupServer/obj/Debug/netcoreapp2.0/LuupServer.pdb
